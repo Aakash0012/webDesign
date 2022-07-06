@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function abc1()
+		{
+			alert("Jai Shri Ram");
+		}
+
+		function abc2()
+		{
+			a="Jai Shri Ram"
+			a=55
+			alert(a);
+		}
+
+		function abc3()
+		{
+			a=prompt("Enter Any value")
+			alert(a);
+		}
+
+		function abc4()
+		{
+			a=confirm("Are You Sure ???")
+			if(a==true)
+				alert("YES");
+			else
+				alert("NO");
+		}
+
+		function abc5()
+		{
+			a=prompt("Enter Any value")
+			b=prompt("Enter Any value")
+			alert(a+b);
+		}
+		function abc()
+		{
+			a=prompt("Enter Any value")
+			b=prompt("Enter Any value")
+			
+			a=parseInt(a)
+			b=parseInt(b)
+
+			alert(a+b);
+		}
+
+		function abc6()
+		{
+			a=prompt("Enter Any value")
+			b=prompt("Enter Any value")
+			
+			a=parseFloat(a)
+			b=parseFloat(b)
+
+			alert(a+b);
+		}
+
+	</script>
+	<h1 align="center">file on the fire</h1>
+</head>
+<body>
+<input type="button" name="btn_Show" value="Show" onclick="abc5()">
+
+<!-- many inputs can give many buttons to show onclick method -->
+
+<input type="button" name="btn_Show" value="add" onclick="abc()">
+<input type="button" name="btn_Show" value="0" onclick="abc4()">
+<input type="button" name="btn_Show" value="addfloat" onclick="abc6()">
+</body>
+</html>

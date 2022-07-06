@@ -1,0 +1,97 @@
+#black
+{
+	background-color: grey;
+	width: 100%;
+	height: 500px;
+	float: right;
+
+}
+#contact
+{
+	background-color: skyblue;
+	width: 50%;
+	height: 430px;
+	margin-top: 35px;
+	margin-left: 600px;
+	font-size:20px;
+}
+#name
+{
+	background-color: white;
+	width: 60%;
+	height: 30px;
+}
+#text
+{
+	width: 60%;
+	height: 30px;
+}
+#mail
+{
+	width: 60%;
+	height: 30px;
+}
+#description
+{
+	width: 60%;
+	height: 90px;
+}
+#submit
+{
+	width: 20%;
+	height: 40px;
+	background-color: orange;
+	border-width: 4px;
+}
+#cont
+{
+	background-color: white;
+	width: 15%;
+	height: 190px;
+	margin-top: -400px;
+	margin-left: 450px;
+}
+#cont img
+{
+	width: 30%;
+	height: 50px;
+}
+#office
+{
+	background-color: white;
+	width: 15%;
+	height: 190px;
+	margin-top: -188px;
+	margin-left: 200px;
+}
+#office img
+{
+	width: 30%;
+	height: 50px;
+}
+#email
+{
+	background-color: white;
+	width: 15%;
+	height: 160px;
+	margin-top: 20px;
+	margin-left: 450px;
+}
+#email img
+{
+	width: 40%;
+	height: 70px;
+}
+#fax
+{
+	background-color: white;
+	width: 15%;
+	height:160px;
+	margin-top: -160px;
+	margin-left: 200px;
+}
+#fax img
+{
+	width: 30%;
+	height: 50px;
+}

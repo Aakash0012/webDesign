@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>effects</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				$("ul li:first-child").toggle(); 
+			})
+			$("#btn2").click(function(){
+				$("p:first").toggle(); 
+			})
+			$("#btn3").click(function(){
+				$("h1.p1").toggle(); 
+			})
+		})
+
+	</script>
+
+
+<input type="button" id="btn1" value="btn1" />
+<input type="button" id="btn2" value="btn2" />
+<input type="button" id="btn3" value="btn3" />
+<ul>
+	<li>1Shri Ram</li>
+	<li>Shri Ram</li>
+	<li>Shri Ram</li>
+	<li>Shri Ram</li>
+</ul>
+<ul>
+	<li>2Shri Ram</li>
+	<li>Shri Ram</li>
+	<li>Shri Ram</li>
+	<li>Shri Ram</li>
+</ul>
+
+
+<p>1Jai Shri Ram</p>
+<p>2Jai Shri Ram</p>
+<p>3Jai Shri Ram</p>
+<p>4Jai Shri Ram</p>
+<p class="p1">Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram </p>
+<h1  class="p1">Jai Shri Ram </h1>
+</body>
+</html>

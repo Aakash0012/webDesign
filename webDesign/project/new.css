@@ -1,0 +1,150 @@
+#first
+{
+	background-color: #b9c5c9;
+	width: 90%;
+	height: 700px;
+	margin-left: 67px;
+	float: left;
+}
+#first img
+{
+	width: 35%;
+	height: 406px;
+	margin-left: 665px;
+	margin-top: 40px;
+}
+#line
+{
+	background-color: red;
+	width: 7%;
+	height: 6px;
+	margin-left: 85px;
+	margin-top: -349px;
+}
+#words
+{
+	margin-left: 85px;
+}
+#word
+{
+	margin-left: 83px;
+	margin-top: -30px;
+}
+#box
+{
+	background-color: white;
+	width: 19%;
+	height: 200px;
+	margin-left: 833px;
+}
+#box img
+{
+	width: 30%;
+	height: 50px;
+	margin-left: -9px;
+}
+#secbox
+{
+	background-color: white;
+	width: 19%;
+	height: 200px;
+	margin-left: 600px;
+	margin-top: -200px;
+}
+#secbox img
+{
+	width: 30%;
+	height: 50px;
+	margin-left: 12px;
+}
+#thibox
+{
+	background-color: white;
+	width: 19%;
+	height: 200px;
+	margin-top: -200px;
+	margin-left: 366px;
+}
+#thibox img
+{
+	width: 30%;
+	height: 50px;
+	margin-left: 20px; 
+}
+#foubox
+{
+	background-color: white;
+	width: 19%;
+	height: 200px;
+	margin-left: 132px;
+	margin-top: -200px;
+}
+#foubox img
+{
+	width: 36%;
+	height: 61px;
+	margin-left: 20px;
+}
+#redbox
+{
+	background-color: red;
+	width: 90%;
+	height: 350px;
+	margin-left: 67px;
+	float: left;
+}
+#redwords
+{
+	background-color: none;
+	width: 40%;
+	height: 200px;
+	margin-left: 551px;
+	margin-top: 75px;
+}
+#whitebox
+{
+	background-color: white;
+	width: 33%;
+	height: 44px;
+}
+#bigwords
+{
+	background-color: none;
+	width: 40%;
+	height: 250px;
+	margin-left: 65px;
+	margin-top: -227px;
+}
+#thirdpage
+{
+	background-color: #b9c5c9;
+	width: 90%;
+	height: 500px;
+	margin-left: 67px;
+	float: left;
+}
+#circle1
+{
+	background-color: red;
+	width: 5%;
+	height: 60px;
+	border-radius: 40px;
+	margin-top: 61px;
+	margin-left: 73px;
+}
+#written
+{
+	background-color: white;
+	width: 26%;
+	height: 290px;
+	margin-top: 16px;
+	margin-left: 73px;
+}
+#thirdpage img
+{
+	width: 44%;
+	height: 290px;
+	margin-top: -290px;
+	margin-left: 385px;
+	float: left;
+}

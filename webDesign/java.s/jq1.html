@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+</head>
+<body>
+	<span></span>
+	<!-- <img height="200px" width="25%" src="images/dev.png"> -->
+	<!-- <input type="submit" id="fadeOut" value="fadeOut">
+	<input type="submit" id="fadeIn" value="fadeIn">
+	<input type="submit" id="toggle" value="toggle"> -->
+	<input type="submit" id="Animate" value="Animate"><br><br>
+	<div id="d3" style="background-color: green; height: 200px; width: 200px;">
+	</div>
+
+	<script>
+		
+		// $(document).ready(function(){
+		// 	$("img").click(function(){
+		// 		$("img").hide()
+		// 	})
+		// })
+
+		// $(document).ready(function(){
+		// 	$("#fadeOut").click(function(){
+		// 		$("img").fadeOut()
+		// 	})
+		// })
+
+		// $(document).ready(function(){
+		// 	$("#fadeIn").click(function(){
+		// 		$("img").fadeIn()
+		// 	})
+		// })
+
+		// $(document).ready(function(){
+		// 	$("#toggle").click(function(){
+		// 		$("img").toggle()
+		// 	})
+		// })
+
+		$(document).ready(function(){
+			$("#Animate").click(function(){
+				$("#d3").animate({bottom: '250px'},"slow")
+			})
+		})
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+#main
+{
+	background-color: gold;
+	width: 90%;
+	height: 600px;
+	margin-left: 69px;
+
+}
+#imagee img
+{
+	width: 33%;
+	height: 400px;
+	margin-left: 700px;
+	margin-top: 10px;
+	float: left;
+
+}
+#redline
+{
+	background-color: red;
+	width: 7%;
+	height: 6px;
+	margin-left: -1040px;
+	margin-top: 84px;
+	float: left;
+
+}
+#we
+{
+	margin-left: 50px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>effects</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+	<span></span>
+	<input type="submit" id="animate" value="animate"><br><br><br>
+	<div id="anime" style="background-color: blue; height: 200px; width: 200px;position: absolute;">
+		
+	</div>
+	<script>
+		$(document).ready(function(){
+			$("#animate").click(function(){
+				$("#anime").animate({top:'250px'},"slow")
+			})
+		})
+
+
+	</script>
+
+</body>
+</html>
