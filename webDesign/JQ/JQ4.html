@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<table border="2" width="40%">
+	<tr>
+		<td>col1</td>
+		<td>col2</td>
+		<td>col3</td>
+		<td>col4</td>
+		<td>col5</td>
+		<td>col6</td>
+	</tr>
+	<tr>
+		<td>col1</td>
+		<td>col2</td>
+		<td>col3</td>
+		<td>col4</td>
+		<td>col5</td>
+		<td>col6</td>
+	</tr>
+	<tr>
+		<td>col1</td>
+		<td>col2</td>
+		<td>col3</td>
+		<td>col4</td>
+		<td>col5</td>
+		<td>col6</td>
+	</tr>
+	<tr>
+		<td>col1</td>
+		<td>col2</td>
+		<td>col3</td>
+		<td>col4</td>
+		<td>col5</td>
+		<td>col6</td>
+	</tr>
+	</table>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("tr:even").css("background-color","red");
+			$("tr:odd").css("background-color","green");
+		})
+	</script>
+
+</body>
+</html>
