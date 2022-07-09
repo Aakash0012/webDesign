@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<style type="text/css">
+	.d1
+	{
+		width: 200px;
+		height: 200px;
+		background-color:yellow;
+	}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			$("div").fadeIn(4000);
+		})
+		$("#btn2").click(function(){
+			$("div").fadeOut(4000);
+		})
+		$("#btn3").click(function(){
+			$("div").fadeToggle(4000);
+		})
+		$("#btn4").click(function(){
+			$("div").fadeTo(4000,.8);
+		})
+	})
+</script>
+<input type="button" id="btn1" value="btn1">
+<input type="button" id="btn2" value="btn2">
+<input type="button" id="btn3" value="btn3">
+<input type="button" id="btn4" value="btn4">
+
+<div class="d1" style="opacity: 0.5;">
+	
+</div>
+
+
+</body>
+</html>
