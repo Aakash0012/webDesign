@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<style type="text/css">
+	
+	.d1
+	{
+		padding: 5px;
+		border:3px solid red;
+	}
+
+	.d2
+	{
+		padding: 5px;
+		border:3px dashed green;
+	}
+	 
+ 
+</style>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			// $("#pp1").parent().addClass("d2");
+			// $("#pp1").parents().addClass("d2");
+			// $("#pp1").parentsUntil("#pp2").addClass("d2");
+				// $("#pp2").children().addClass("d2");
+			// $("#pp2").find("p").addClass("d2");
+
+			$("p").siblings().addClass("d2");
+		})
+	})
+</script>
+
+<input type="button" id="btn1" value="btn1">
+
+<div class="d1" id="pp2">
+	<h1 class="d1">Jai Shri Ram</h1>
+	<p class="d1">Jai Shri Ram</p>
+	<div class="d1">
+		<div class="d1">
+			<p class="d1" id="pp1">Jai Shri Ram</p>
+		</div> 
+		<h1 class="d1">Jai Shri Ram</h1>
+		<h2 class="d1">Jai Shri Ram</h2>
+		<p class="d1">Jai Shri Ram</p>
+
+	</div> 
+	
+</div> 
+
+</body>
+</html>

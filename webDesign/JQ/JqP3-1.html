@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<style type="text/css">
+	.d1
+	{
+		width: 200px;
+		height: 200px;
+		background-color:yellow;
+	}
+
+	.d1a
+	{
+		width: 500px;
+		height: 500px;
+	}
+	
+
+	.d2
+	{
+		width: 200px;
+		height: 200px;
+		background-color:orange;
+	}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			$("div").addClass("d2");
+		})
+		$("#btn2").click(function(){
+			$("div").removeClass("d1");
+		})
+		$("#btn3").click(function(){
+			$("div").toggleClass("d2");
+		})
+		$("#btn4").click(function(){
+			//alert($("div").css("width"));
+			//$("div").css("width","500px");
+			$("div").css({"width":"500px","height":"500px"});
+		})
+	})
+</script>
+<input type="button" id="btn1" value="btn1">
+<input type="button" id="btn2" value="btn2">
+<input type="button" id="btn3" value="btn3">
+<input type="button" id="btn4" value="btn4">
+
+<div class="d1" >
+	
+</div>
+
+
+</body>
+</html>

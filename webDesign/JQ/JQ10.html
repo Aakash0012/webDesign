@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<style type="text/css">
+	.d1
+	{
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		background-color:yellow;
+	}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			$("p").text("Shri Ram");
+		})
+
+		$("#btn2").click(function(){
+			$("p").html("<b>Jai Shri Ram</b>");
+		})
+
+		$("#btn3").click(function(){
+			$("#pp1").val("Hare Krishna");
+		})
+	 
+	})
+</script>
+<input type="button" id="btn1" value="btn1">
+<input type="button" id="btn2" value="btn2">
+<input type="button" id="btn3" value="btn3">
+ 
+
+ <p> <b>Jai</b> <i>Shri</i> <u>Ram</u></p>
+<input type="text" id="pp1">
+
+
+</body>
+</html>

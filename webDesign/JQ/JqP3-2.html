@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<style type="text/css">
+	.d1
+	{
+		margin: 50px;
+		width: 200px;
+		height: 200px;
+		padding: 50px;
+		border:20px dotted red;
+		background-color:yellow;
+	}
+
+	 
+ 
+</style>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			// alert($("p").width());
+			alert($("p").innerWidth());
+			alert($("p").outerWidth());
+			alert($("p").outerWidth(true));
+		})
+		 
+	})
+</script>
+
+<input type="button" id="btn1" value="btn1">
+ 
+
+<p class="d1">Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram Jai Shri Ram </p>
+
+</body>
+</html>
